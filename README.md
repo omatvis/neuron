@@ -47,11 +47,13 @@ This repository starts with **documentation first** (no code yet).
 ### Phase 3 — UI (optional)
 - [ ] React UI calls the same API endpoints
 
-## Proposed repository structure
+## Repository structure
 - `docs/`
-  - `docs_api_Version_1.md` (API contract)
-  - `docs_dev-workflow_Version_1.md` (how to run and test)
-  - `docs_routing_Version_1.md` (routing conventions: lowercase)
-  - `docs_glossary_Version_1.md` (terms)
-- `Neuron.Api/` (later: Visual Studio Web API project)
-- `neuron-web/` (later: React UI)
+  - `api.md` (API contract)
+  - `dev-workflow.md` (how to run and test)
+  - `routing.md` (routing conventions: lowercase)
+  - `glossary.md` (terms)
+- `src/`
+  - `Neuron.Api/` (ASP.NET Core Web API — Phase 1+)
+  - `neuron-web/` (React UI — Phase 3+)
+- `tests/` (unit / integration tests — future)
