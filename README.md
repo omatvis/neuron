@@ -28,12 +28,12 @@ This repository starts with **documentation first** (no code yet).
 
 ## Phases / milestones
 
-### Phase 0 — Documentation (current)
-- [ ] Define repository structure
-- [ ] Define API contract (`/predict`, later `/train`)
-- [ ] Define dev workflow (VS + Swagger; later VS Code for React)
+### Phase 0 — Documentation ✅
+- [x] Define repository structure
+- [x] Define API contract (`/predict`, later `/train`)
+- [x] Define dev workflow (VS + Swagger; later VS Code for React)
 
-### Phase 1 — Web API + Swagger testing (no neural net yet)
+### Phase 1 — Web API + Swagger testing (no neural net yet) ← *current*
 - [ ] Create ASP.NET Core Web API project (`Neuron.Api`) targeting **.NET 10**
 - [ ] Add endpoint: `POST /predict`
 - [ ] Verify request/response in Swagger UI
@@ -49,9 +49,9 @@ This repository starts with **documentation first** (no code yet).
 
 ## Proposed repository structure
 - `docs/`
-  - `api.md` (API contract)
-  - `dev-workflow.md` (how to run and test)
-  - `routing.md` (routing conventions: lowercase)
-  - `glossary.md` (terms)
+  - `docs_api_Version_1.md` (API contract)
+  - `docs_dev-workflow_Version_1.md` (how to run and test)
+  - `docs_routing_Version_1.md` (routing conventions: lowercase)
+  - `docs_glossary_Version_1.md` (terms)
 - `Neuron.Api/` (later: Visual Studio Web API project)
 - `neuron-web/` (later: React UI)
